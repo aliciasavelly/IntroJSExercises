@@ -5,7 +5,7 @@ const myEach = (array, callback) => {
   return array;
 };
 
-myEach([1, 2, 3], (el) => { console.log(el); });
+myEach([1, 2, 3], (el) => console.log(el) );
 myEach([4, 5, 6], function(el) { console.log(el); });
 
 const myMap = (array, callback) => {
